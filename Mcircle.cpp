@@ -25,10 +25,10 @@ void Mcircle(){
         }
     }
     if(endn == 0){
-        cout << startn << " " << startm;
+        cout << startn+1 << " " << startm+1 << "\n";
     }
     else{
-        cout << (endn-startn)/2 << " " << startm;
+        cout << startn+((endn-startn)/2)+1 << " " << (endm + 1) << "\n";
     }
 }
 
